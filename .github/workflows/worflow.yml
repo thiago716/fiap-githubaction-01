@@ -28,5 +28,5 @@ jobs:
         uses: docker/build-push-action@v6.12.0
         with:
           context: .
-          tags: 'latest'
+          tags: 'rm360138/fiapghactions:latest'
           push: true
