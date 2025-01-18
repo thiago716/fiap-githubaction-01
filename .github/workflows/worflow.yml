@@ -17,9 +17,9 @@ jobs:
     steps:
       - name: Step 1
         uses: actions/checkout@v2
-
-      - name: step 2
-        run: echo "Olá, mundo! teste de job"
-
-      - name: step 3
-        run: echo "Olá, mundo! teste de job step 3"
+  
+      - name: Docker Login
+        uses: docker/login-action@v3.3.0
+        with:
+          username: rm360138
+          password: ${{ SECRETS.SECRETE }}          
