@@ -4,13 +4,19 @@ name: Test workflow
 # Definindo quando o Workflow será disparado
 on:
   push:
-    branches: [ main, developer ]
+    branches: [ "main", "developer" ]
+
+  pull_request:
+      branches: [ "main" ]
+
+  workflow_dispatch:
 
 # Definindo os jobs que o workflow executará
 jobs:
   test_job:
     name: Executando job de Teste
     runs-on: self-hosted
+    
     steps:
     - name: step 1
       uses: actions/checkout@v2
