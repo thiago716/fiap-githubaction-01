@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "fiap-githubaction-01/1.0.0": {
+        "runtime": {
+          "fiap-githubaction-01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "fiap-githubaction-01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
